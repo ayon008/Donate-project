@@ -4,7 +4,6 @@
 }
 
 .banner-title {
-    padding: 174px 306px;
     text-align: center;
 }
 
@@ -66,8 +65,6 @@ header {
     font-family: 'Poppins';
     color: #707070;
     text-align: center;
-    margin-left: 374px;
-    margin-right: 374px;
 }
 
 .donate-amount {
@@ -146,8 +143,6 @@ hr {
     margin-top: 50px;
     justify-content: center;
     gap: 24px;
-    margin: 0px 157px;
-    margin-top: 20.5px;
 }
 
 .food {
@@ -190,8 +185,7 @@ hr {
     margin-top: 130.5px;
     justify-content: start;
     gap: 83px;
-    margin-left: 156px;
-    margin-right: 252px;
+
 }
 
 .container-title {
@@ -221,15 +215,13 @@ hr {
     padding: 76px;
     text-align: center;
     background: #FFF4D6;
-    margin-left: 316px;
-    margin-right: 315px;
+
 }
 
 .email {
-    width: 275px;
-    height: 48px;
     background: #D9D9D9;
     border-radius: 5px 0px 0px 5px;
+    height: 48px;
 }
 
 .subscribes {
@@ -265,4 +257,109 @@ footer {
     font-family: 'Lobster';
     margin-top: 43px;
     margin-bottom: 24px;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    header {
+        background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url("./images/donation13.jpg");
+        width: 100%;
+    }
+
+    .banner-title {
+        padding: 10px;
+        text-align: start;
+    }
+
+    .title-name {
+        padding-top: 5px;
+    }
+
+    .donate-des {
+        font-weight: 400;
+        font-size: 18px;
+        font-family: 'Poppins';
+        color: #707070;
+        text-align: center;
+    }
+
+    .donate-amount {
+        margin-top: 50px;
+        gap: 20px;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .plan-type {
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: center;
+        gap: 24px;
+        padding: 10px;
+    }
+
+    .container-image {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .container-image img {
+        width: 100%;
+    }
+
+    .xyz {
+        margin: 0px 25px 10px;
+    }
+    .container-image1 {
+        flex-direction: column-reverse;
+    }
+    .update {
+       margin: 100px 0px;
+    }
+    .email {
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+    .subscribes {
+        border-radius: 10px;
+    }
+    
+
+}
+
+
+
+@media screen and (min-width:577px) {
+    .banner-title {
+        padding: 174px 306px;
+    }
+
+    .donate-des {
+        margin-left: 374px;
+        margin-right: 374px;
+    }
+
+    .plan-type {
+        margin: 0px 157px;
+        margin-top: 20.5px;
+    }
+
+    .container-image {
+        margin-left: 156px;
+        margin-right: 252px;
+    }
+
+    .xyz {
+        margin-left: 316px;
+        margin-right: 315px;
+    }
+
+    .email {
+        width: 275px;
+        height: 48px;
+    }
 }
